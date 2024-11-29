@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Add a Snapshot | EmoTrack</title>
+</head>
+
+<body class="fs-4">
+    <h1 class="text-center my-5">Add a Snapshot</h1>
+
+    <form action="POST">
+        <div class="container mx-auto">
+            <div class="row row-cols-12">
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion1">Emotion 1</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal1"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion1">
+
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion2">Emotion 2</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal2"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion2">
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion3">Emotion 3</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal3"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion3">
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion4">Emotion 4</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal4"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion4">
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion5">Emotion 5</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal5"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion5">
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion6">Emotion 6</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal6"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion6">
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-2 row">
+                    <h2 class="form-label col-9 text-start my-auto"><label for="emotion7">Emotion 7</label></h2>
+                    <p class="col-3 text-end fw-bold my-auto"><output id="emotionVal7"></output></p>
+                    <input type="range" class="form-range p-3" min="0" max="10" id="emotion7">
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+
+    <script src="./js/add-snapshot.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
